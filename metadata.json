@@ -1,0 +1,5 @@
+{
+  "name": "Daycare Dream Planner",
+  "description": "An application that generates a personalized daycare routine for your child based on their age, interests, and schedule, powered by Gemini.",
+  "requestFramePermissions": []
+}
