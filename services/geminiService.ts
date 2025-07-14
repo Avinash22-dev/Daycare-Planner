@@ -4,11 +4,11 @@ import type { ChildInfo, RoutineItem } from '../types';
 
 const MODEL_NAME = 'gemini-2.5-flash';
 
-if (!process.env.API_KEY) {
-  throw new Error("API_KEY environment variable is not set.");
+if (!process.env.GEMINI_API_KEY) {
+  throw new Error("GEMINI_API_KEY environment variable is not set.");
 }
 
-const ai = new GoogleGenAI({ apiKey: process.env.API_KEY });
+const ai = new GoogleGenAI({ apiKey: process.env.GEMINI_API_KEY });
 
 const routineSchema = {
   type: Type.ARRAY,
